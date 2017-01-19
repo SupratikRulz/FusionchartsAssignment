@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Supratik Basu :Assignment1</title>
+<script type="text/javascript" src="fusioncharts/js/fusioncharts.js"></script>
+<script type="text/javascript" src="fusioncharts/js/themes/fusioncharts.theme.fint.js"></script>
+<script type="text/javascript">
+ 
+ FusionCharts.ready(function(){
+    var chart1 = new FusionCharts({
+        "type": "doughnut2d",
+        "renderAt": "loadHere",
+        "width": "800",
+        "height": "600",
+        "dataFormat": "xmlurl",
+		"dataSource": "xml/workdata.xml"
+	});
+	var chart2 = new FusionCharts({
+        "type": "doughnut3d",
+        "renderAt": "loadHere2",
+        "width": "800",
+        "height": "600",
+        "dataFormat": "xmlurl",
+		"dataSource": "xml/workdata.xml"
+	});
+	 var chart3 = new FusionCharts({
+        "type": "pyramid",
+        "renderAt": "loadHere3",
+        "width": "800",
+        "height": "600",
+        "dataFormat": "xmlurl",
+		"dataSource": "xml/workdata.xml"
+	});
+	var chart4 = new FusionCharts({
+        "type": "hlineargauge",
+        "renderAt": "loadHere4",
+        "width": "800",
+        "height": "200",
+        "dataFormat": "xmlurl",
+		"dataSource": "xml/gaugedata.xml"
+	});
+	chart1.render();
+	chart2.render();
+	chart3.render();
+	chart4.render();
+});
+</script>
+</head>
+<body>	
+  <div id="loadHere"></div>
+  </br></br></br></br>
+  <div id="loadHere2"></div>
+  </br></br></br></br>
+  <div id="loadHere3"></div>
+  </br></br></br></br>
+  <div id="loadHere4"></div>
+  </br></br></br></br>
+ <h1> Created using FusionCharts Suite v3.11.1 by Supratik Basu(mail.supratikbasu@gmail.com)</h1>
+</body>
+</html>

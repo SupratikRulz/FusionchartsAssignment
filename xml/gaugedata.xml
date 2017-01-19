@@ -1,0 +1,10 @@
+<chart theme="fint" caption="Pressure Level at FusionCharts" lowerlimit="0" upperlimit="100" numbersuffix="%" chartbottommargin="20" valuefontsize="25" valuefontbold="1" ticksbelowgauge="0" placeticksinside="0" placevaluesinside="0" gaugefillmix="{light-10},{light-70},{dark-10}" >
+    <colorrange>
+        <color minvalue="0" maxvalue="40" label="Low" />
+        <color minvalue="40" maxvalue="70" label="Moderate" />
+        <color minvalue="70" maxvalue="100" label="High" />
+    </colorrange>
+    <pointers>
+        <pointer value="85" />
+    </pointers>
+</chart>

@@ -1,0 +1,8 @@
+<chart caption="Work Time on Technologies" subcaption="FusionCharts" centerLabel="$label : $value" numberprefix=" Hours- " palettecolors="#0075c2,#1aaf5d,#f2c500,#f45b00,#8e0000,#000000" bgcolor="#ffffff" showborder="0" animateClockwise="1" showshadow="0" enablesmartlabels="1" startingangle="310" showlabels="0" showpercentvalues="1" showlegend="1" legendshadow="0" legendborderalpha="0" decimals="0" captionfontsize="14" subcaptionfontsize="14" subcaptionfontbold="0" tooltipcolor="#ffffff" tooltipborderthickness="0" tooltipbgcolor="#000000" tooltipbgalpha="80" tooltipborderradius="2" tooltippadding="5" usedataplotcolorforlabels="1" use3DLighting="1" pieradius="200" exportenabled="1">
+    <set label="JavaScript" value="12" />
+    <set label="ASP.Net" value="4" />
+    <set label="Ruby" value="5" />
+    <set label="PHP" value="9" />
+	<set label="JEE" value="10" />
+	<set label="HTML & CSS" value="10" />
+</chart>
